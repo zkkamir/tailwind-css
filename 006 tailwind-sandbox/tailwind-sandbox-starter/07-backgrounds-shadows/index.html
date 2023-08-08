@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Backgrounds & Shadows</title>
-  </head>
-  <body>
-    <!-- Background Classes -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Backgrounds & Shadows</title>
+	</head>
+	<body>
+		<!-- Background Classes -->
+		<div
+			style="background-image: url('../assets/img/img1.jpg')"
+			class="h-64 w-72 bg-no-repeat bg-cover bg-center"></div>
 
-    <!-- Gradients -->
+		<!-- Gradients -->
+		<div class="h-24 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
 
-    <!-- Shadows -->
-
-    <!-- Mix Blend -->
-  </body>
+		<!-- Shadows -->
+		<div class="w-96 mt-6 ml-4 p-3 shadow-md">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium
+			dolore delectus nulla ducimus sed temporibus! Qui voluptatem aperiam nisi.
+		</div>
+		<div class="w-96 mt-6 ml-4 p-3 shadow-lg">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium
+			dolore delectus nulla ducimus sed temporibus! Qui voluptatem aperiam nisi.
+		</div>
+		<div class="w-96 mt-6 ml-4 p-3 shadow-xl">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium
+			dolore delectus nulla ducimus sed temporibus! Qui voluptatem aperiam nisi.
+		</div>
+		<div class="w-96 mt-6 ml-4 p-3 shadow-2xl">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium
+			dolore delectus nulla ducimus sed temporibus! Qui voluptatem aperiam nisi.
+		</div>
+		<div class="w-96 mt-6 ml-4 p-3 shadow-2xl shadow-inner shadow-blue-500">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui accusantium
+			dolore delectus nulla ducimus sed temporibus! Qui voluptatem aperiam nisi.
+		</div>
+		<!-- Mix Blend -->
+		<div class="flex justify-center -space-x-24">
+			<div class="bg-blue-400 mix-blend-multiply">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolor
+				quisquam quasi? Nobis alias modi fugiat dolore odit perferendis cumque!
+			</div>
+			<div class="bg-pink-400 mix-blend-multiply">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, distinctio
+				illum eos quidem laborum nisi? Iusto explicabo doloremque esse vitae!
+			</div>
+		</div>
+	</body>
 </html>
 
 <!-- Background Size
